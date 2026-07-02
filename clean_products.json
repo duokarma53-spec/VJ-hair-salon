@@ -1,0 +1,1649 @@
+[
+  {
+    "date": "25/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDITIONER & OIL (500ML&100ML)",
+    "staff": "MEET",
+    "amount": 9170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "25/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO(500ML) & CONDITIONER(200ML) & OIL(100ML)",
+    "staff": "JAY",
+    "amount": 6700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "26/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "WELLA SHAMPOO(250ML) & WELLA MASK(150ML) & LOREAL SERUM(50ML)",
+    "staff": "MEET",
+    "amount": 2400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI HYDRATING MASK (150ML) SHAMPOO &CONDITIONER(200ML) OIL(30ML)",
+    "staff": "MEET",
+    "amount": 6070,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "WELLA SHAMPOO(250ML) & MASK (150ML)",
+    "staff": "MEET",
+    "amount": 2550,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "SONU",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "29/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "SUN CREAM",
+    "staff": "FORAM",
+    "amount": 449,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "30/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "SUNCREAM & FACE WASH",
+    "staff": "FORAM",
+    "amount": 619,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "31/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDITIONER(200ML)&OIL(50ML)",
+    "staff": "JAY",
+    "amount": 4270,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "31/01/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "SUNCREAM & FACEWASH",
+    "staff": "-",
+    "amount": 619,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "01/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "BRILLARE SHAMPOO&MASK NASHI STYLING MASK",
+    "staff": "MEET",
+    "amount": 2770,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "02/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "FILLER SHAMPOO & CONDITIONER(250ML)",
+    "staff": "MEET",
+    "amount": 3660,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "02/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "SKEYNDOR THERMAL CLEANSING.GEL(250ML) THERMAL CONCENTRATE WATER(100ML) POWER+C SERUM(30ML)",
+    "staff": "-",
+    "amount": 8600,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "02/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "DERMA CARE FACE WASH",
+    "staff": "-",
+    "amount": 169,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "02/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDITIONER(500ML)",
+    "staff": "MEET",
+    "amount": 6200,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "03/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "HAIRFALL SHAMPOO.CONDITIONER (MUDRA)",
+    "staff": "-",
+    "amount": 0,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "FACEWASH & SUNCREAM        DERMA CARE",
+    "staff": "HONEY",
+    "amount": 620,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "05/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI OIL (30ML)",
+    "staff": "-",
+    "amount": 1400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "05/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDITIONER (200ML)",
+    "staff": "-",
+    "amount": 3115,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "05/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "DERMACARE FACEWASH",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI OIL(30ML) SHAMPOO&CONDITIONER (200ML) INSTANT STYLIMG MASK",
+    "staff": "-",
+    "amount": 6415,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "07/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI OIL (30ML)",
+    "staff": "-",
+    "amount": 1400,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "08/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "INSTANT STYLING MASK",
+    "staff": "MEET",
+    "amount": 1900,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "09/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "DERMACARE FACEWASH & SUNCREAM",
+    "staff": "-",
+    "amount": 619,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "FACEWASH DERMACARE",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "10/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "FACEWASH DERMACARE",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "FACEWASH DERMACARE",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "13/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI OIL(30ML) & NASHI LIVING SPREY(150ML)",
+    "staff": "MEET",
+    "amount": 3300,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "15/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO &CONDITIONER(200ML)",
+    "staff": "-",
+    "amount": 3115,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "18/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "SHAMPOO(300ML) & MASK(250GM) LOREAL",
+    "staff": "-",
+    "amount": 1740,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "25/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "DERMACARE FACEWASH",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/02/2025",
+    "customer_name": "PRATIBHA PANCHAL",
+    "customer_phone": "",
+    "product": "WELLA COLOUR SHAMPOO(250ML) &CONDITIONER(150ML)",
+    "staff": "MEET",
+    "amount": 2400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/02/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "DERMACARE FACEWASH",
+    "staff": "-",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "01/03/2026",
+    "customer_name": "BINDI PATEL",
+    "customer_phone": "9737577149",
+    "product": "NASHI SHAMPOO & CONDITIONER(200ML)",
+    "staff": "MEET",
+    "amount": 3115,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "02/03/2026",
+    "customer_name": "HARSHITA SOLANKI",
+    "customer_phone": "8320786869",
+    "product": "HAIR MIST",
+    "staff": "MEET",
+    "amount": 799,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "05/03/2026",
+    "customer_name": "YADAV JI",
+    "customer_phone": "",
+    "product": "DANDRUFF CONTROL SHAMPOO &MASK",
+    "staff": "FORAM",
+    "amount": 970,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "06/03/2026",
+    "customer_name": "YAMINI TAGORIYA",
+    "customer_phone": "",
+    "product": "FACEWASH CARES DERMA",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "06/03/2026",
+    "customer_name": "JINAAL BHATT",
+    "customer_phone": "",
+    "product": "FACEWASH CARES DERMA",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/03/2026",
+    "customer_name": "SONI MANSUKANI",
+    "customer_phone": "",
+    "product": "FACEWASH CARES DERMA",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "07/03/2026",
+    "customer_name": "KALPNABEN PATEL",
+    "customer_phone": "",
+    "product": "NASHI LIVING SPRAY (MEET) SKEYNDOR SUNSCREAM SERUM CREAM",
+    "staff": "JAY",
+    "amount": 9260,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "08/03/2026",
+    "customer_name": "SUREKHA DHANKI",
+    "customer_phone": "",
+    "product": "CARESDERMA SUNCREAM  SKEYNDOR",
+    "staff": "JAY",
+    "amount": 3860,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "10/03/2026",
+    "customer_name": "SAPNA KHANDELWAL",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH SPF50 & MOSITURRISER WATER BASE",
+    "staff": "JAY",
+    "amount": 1220,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "11/03/2026",
+    "customer_name": "AYUSHI PARMAR",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO (200ML) NASHI CONDITIONER (200ML) NASHI OIL (30ML) NASHI LIVING SPRAY",
+    "staff": "JAY",
+    "amount": 6170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "11/03/2026",
+    "customer_name": "Retail Walk-in",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH(2) SUNCREAM",
+    "staff": "JAY",
+    "amount": 790,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "12/03/2026",
+    "customer_name": "PRIYA",
+    "customer_phone": "",
+    "product": "CARESDERMA FACEWASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "12/03/2026",
+    "customer_name": "PRIYA",
+    "customer_phone": "",
+    "product": "CARESDERMA MOISTURE & SUNSCREAM",
+    "staff": "JAY",
+    "amount": 2000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "15/03/2026",
+    "customer_name": "BINDI PATEL",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "15/03/2026",
+    "customer_name": "DIVYA MASANT",
+    "customer_phone": "",
+    "product": "DANDRUF SHAMPOO & CONDITIONER",
+    "staff": "MEET",
+    "amount": 1000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "15/03/2026",
+    "customer_name": "KHYATI MAKHIJA",
+    "customer_phone": "",
+    "product": "NASHI SMALL KIT",
+    "staff": "JAY",
+    "amount": 6415,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "16/03/2026",
+    "customer_name": "SHREYAL SONI",
+    "customer_phone": "",
+    "product": "NASHI SMALL KIT",
+    "staff": "MEET",
+    "amount": 6500,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "17/03/2026",
+    "customer_name": "NAVYA SALVANI",
+    "customer_phone": "",
+    "product": "NASHI SMALL OIL & HAIR FALL & COND",
+    "staff": "PRIYA",
+    "amount": 2370,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "17/03/2026",
+    "customer_name": "AFREEN SHAIKH",
+    "customer_phone": "",
+    "product": "HAIR FALL SHAMPOO & COND",
+    "staff": "MEET",
+    "amount": 970,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "18/03/2026",
+    "customer_name": "JIYA PANCHAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDITIONER (200ML) OIL(100ML)",
+    "staff": "MEET",
+    "amount": 6700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "20/03/2026",
+    "customer_name": "ANJALI PASAYA",
+    "customer_phone": "",
+    "product": "POWER C MOISTURE & SUNSCREEM & CARES DERMA FACE WASH",
+    "staff": "FORAM",
+    "amount": 8330,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "22/03/2026",
+    "customer_name": "DHIRAJ KEVLANI",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDITIONER (200ML)",
+    "staff": "JAY",
+    "amount": 3000,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "22/03/2026",
+    "customer_name": "MAANAV",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDITIONER (200ML)",
+    "staff": "JAY",
+    "amount": 3000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/03/2026",
+    "customer_name": "SONU",
+    "customer_phone": "",
+    "product": "HAIR FALL SHAMPOO & CONDI",
+    "staff": "JAY",
+    "amount": 970,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "23/03/2026",
+    "customer_name": "---------",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "JAY",
+    "amount": 169,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "26/03/2026",
+    "customer_name": "DR SHIVANI NAYAK",
+    "customer_phone": "",
+    "product": "VELLA COLOUR SHAMPOO & CONDI",
+    "staff": "",
+    "amount": 2550,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/03/2026",
+    "customer_name": "KHUSHBU JAIN",
+    "customer_phone": "",
+    "product": "HAIR FALL SHAMPOO & CONDI",
+    "staff": "MEET",
+    "amount": 970,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/03/2026",
+    "customer_name": "HEENA KHANDELWAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDI 500 ML",
+    "staff": "JAY",
+    "amount": 6900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/03/2026",
+    "customer_name": "TANNU BHAGWAN",
+    "customer_phone": "",
+    "product": "BILLARIA HAIR SERUM",
+    "staff": "MEET",
+    "amount": 395,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "30/03/2026",
+    "customer_name": "PAALVI KHANDELWAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDI",
+    "staff": "JAY",
+    "amount": 6900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "03/04/2026",
+    "customer_name": "MEET",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH (3)",
+    "staff": "-",
+    "amount": 510,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "03/04/2026",
+    "customer_name": "RAGINI SONI",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDI SPRAY ESSENTIAL ENERGY (BLUE)",
+    "staff": "FORAM",
+    "amount": 6400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/04/2026",
+    "customer_name": "PRATIBA PANCHAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDI & SMALL OIL",
+    "staff": "JAY",
+    "amount": 4515,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "05/04/2026",
+    "customer_name": "ANGI BANSALI",
+    "customer_phone": "9714180175",
+    "product": "LOREAL SHAMPOO & CON & MASK XTENSO CARE",
+    "staff": "JAY",
+    "amount": 4700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/04/2026",
+    "customer_name": "KHUSHI",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/04/2026",
+    "customer_name": "FORAM",
+    "customer_phone": "",
+    "product": "CARES DERMA MOISTURISER",
+    "staff": "JAY",
+    "amount": 600,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/04/2026",
+    "customer_name": "SUNITA PADVAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDI (200ML)",
+    "staff": "JAY",
+    "amount": 3100,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "08/04/2026",
+    "customer_name": "PANCHAL RITA",
+    "customer_phone": "9978788291",
+    "product": "NASHI SHAMPOO CONDI (200ML) 0IL SMALL",
+    "staff": "JAY",
+    "amount": 4515,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/04/2026",
+    "customer_name": "SHROOF CK",
+    "customer_phone": "",
+    "product": "NASHI SMALL KIT",
+    "staff": "JAY",
+    "amount": 4500,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/04/2026",
+    "customer_name": "WALKING CLIENT",
+    "customer_phone": "",
+    "product": "LOREAL SHAMPOO & COND EXTENSO",
+    "staff": "JAY",
+    "amount": 2450,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/04/2026",
+    "customer_name": "DARJI RIXITA",
+    "customer_phone": "",
+    "product": "SMALL SERUM NASHI",
+    "staff": "JAY",
+    "amount": 1400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "11/04/2026",
+    "customer_name": "BHUMIKA KHANDELWAL",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO & CONDI(200ML) OIL 100ML",
+    "staff": "MEET",
+    "amount": 6700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "11/04/2026",
+    "customer_name": "SURESH MISTRI",
+    "customer_phone": "8780000499",
+    "product": "CARES DERMA FACEWASH 2",
+    "staff": "JAY",
+    "amount": 340,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "12/04/2026",
+    "customer_name": "PRIYANKA GORACHA",
+    "customer_phone": "8238818009",
+    "product": "NASHI BIG KIT SKEYNDOR CLEANSING MILK & EYE CONTOUR",
+    "staff": "JAY MEET",
+    "amount": 15810,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "15/04/2026",
+    "customer_name": "KEJAL SHAH",
+    "customer_phone": "9428549606",
+    "product": "NASHI SMALL KIT",
+    "staff": "MEET",
+    "amount": 4700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "16/04/2026",
+    "customer_name": "ANU CHAUHAN",
+    "customer_phone": "6352662907",
+    "product": "DERMA CARE,FACEWASH,SPF 50",
+    "staff": "HONEY",
+    "amount": 618,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "18/04/2026",
+    "customer_name": "-----------",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH",
+    "staff": "JAY",
+    "amount": 169,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "19/04/2026",
+    "customer_name": "MAYA PRITMANI",
+    "customer_phone": "9723613136",
+    "product": "WELLA ELIMENTS SHAMPOO MASK & NASHI SMALL OIL",
+    "staff": "MEET",
+    "amount": 4050,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "19/04/2026",
+    "customer_name": "PRITI MAKWANA",
+    "customer_phone": "9574792394",
+    "product": "DANDRUFF CONTROL SHAMPOO CONDI",
+    "staff": "MEET",
+    "amount": 970,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "21/04/2026",
+    "customer_name": "CHANDRIKABEN",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH",
+    "staff": "UK",
+    "amount": 169,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "26/04/2026",
+    "customer_name": "PRATIKSHA PANCHAL",
+    "customer_phone": "",
+    "product": "CARES DERMA FACEWASH",
+    "staff": "UK",
+    "amount": 170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "26/04/2026",
+    "customer_name": "DR KINNARI PATEL",
+    "customer_phone": "9978920484",
+    "product": "CARES DERMA SUNCREAM",
+    "staff": "UK",
+    "amount": 449,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/04/2026",
+    "customer_name": "HETAL LABANA",
+    "customer_phone": "7016053880",
+    "product": "NASHI SHAMPOO & CONDI (500ML)",
+    "staff": "JAY",
+    "amount": 6700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/04/2026",
+    "customer_name": "HINAA KHANDELWAL",
+    "customer_phone": "9409625171",
+    "product": "NASHI HAIR SPRAY",
+    "staff": "MEET",
+    "amount": 3000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/04/2026",
+    "customer_name": "PRATIKSHA PANCHAL",
+    "customer_phone": "7990627460",
+    "product": "NASHI SMALL KIT",
+    "staff": "JAY",
+    "amount": 4700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/04/2026",
+    "customer_name": "KAVITA BAKALIYA",
+    "customer_phone": "",
+    "product": "AROMA THICKNING SHAMPOO LARGE SERUM & BLUE CONDI",
+    "staff": "JAY",
+    "amount": 7450,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "29/04/2026",
+    "customer_name": "SHREYA VAGEDIYA",
+    "customer_phone": "",
+    "product": "VELLA SHAMPOO & COND FUSION",
+    "staff": "MEET",
+    "amount": 2550,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "02/05/2026",
+    "customer_name": "BIJAL SHAH",
+    "customer_phone": "9426902280",
+    "product": "NASHI BIG KIT",
+    "staff": "JAY",
+    "amount": 12200,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "02/05/2026",
+    "customer_name": "HEMLATA PATIDAR",
+    "customer_phone": "",
+    "product": "NASHI SHAMPOO CONDI (500ML)",
+    "staff": "JAY",
+    "amount": 6900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "03/05/2026",
+    "customer_name": "DR KINNARI PATEL",
+    "customer_phone": "9978920484",
+    "product": "CARES FERMA FACE WASH",
+    "staff": "UK",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/05/2026",
+    "customer_name": "JIYA PATEL",
+    "customer_phone": "9429847202",
+    "product": "NASHI SHAMPOO CONDI (200ML)",
+    "staff": "MEET",
+    "amount": 3300,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "04/05/2026",
+    "customer_name": "SONIKA KHANDELWAL",
+    "customer_phone": "7046032233",
+    "product": "NASHI INSTANT HYDRATING MASK BLOOM FRAGRANCE",
+    "staff": "MAANAV",
+    "amount": 1900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/05/2026",
+    "customer_name": "-----",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "MAANAV",
+    "amount": 169,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "04/05/2026",
+    "customer_name": "SHILPA PATEL",
+    "customer_phone": "7434862941",
+    "product": "NASHI SHAMPOO CONDI (200ML) BLOOM FRAGRANCE",
+    "staff": "RAHUL",
+    "amount": 3400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/05/2026",
+    "customer_name": "PINKYBEN NOKAM",
+    "customer_phone": "8141761892",
+    "product": "NASHI SMALL OIL & INSTANT MASK WELLA ELIMENTS SHAMPOO MASK",
+    "staff": "MEET",
+    "amount": 5950,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "06/05/2026",
+    "customer_name": "SONIKA KHANDELWAL",
+    "customer_phone": "7046032233",
+    "product": "NASHI OIL BLOOM FRAGRANCE",
+    "staff": "MAANAV",
+    "amount": 1950,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "06/05/2026",
+    "customer_name": "DHRUPTA HATHILA",
+    "customer_phone": "8160929091",
+    "product": "NASHI SHAMPOO,CONDI(200ML),SERUM",
+    "staff": "MAANAV",
+    "amount": 4700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "06/05/2026",
+    "customer_name": "DR MEHGA VASAIYA",
+    "customer_phone": "9879578475",
+    "product": "NASHI SHMPOO OIL SPF50 CONDI LIVING SPRAY BLOOM FRAGRANCE",
+    "staff": "MEET",
+    "amount": 6760,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "08/05/2026",
+    "customer_name": "UK",
+    "customer_phone": "7623885366",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "UK",
+    "amount": 169,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "09/05/2026",
+    "customer_name": "NIRVI SETH",
+    "customer_phone": "9510632056",
+    "product": "NASHI SHAMPOO CONDI (200ML)",
+    "staff": "JAY",
+    "amount": 3300,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "09/05/2026",
+    "customer_name": "RAHUL",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "10/05/2026",
+    "customer_name": "RAVEENA BHOKAN",
+    "customer_phone": "8200747649",
+    "product": "NASHI ARGAN DEEP INFUSION,SHAMPOO",
+    "staff": "JATIN",
+    "amount": 4050,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "10/05/2026",
+    "customer_name": "APEKSHA",
+    "customer_phone": "9426055988",
+    "product": "HAIR MIST",
+    "staff": "JATIN",
+    "amount": 800,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "10/05/2026",
+    "customer_name": "MARIYAM JHABUWALA",
+    "customer_phone": "8141045252",
+    "product": "HAIRFALL SHAMPOO CONDI MASK",
+    "staff": "RAHUL",
+    "amount": 1365,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "11/05/2026",
+    "customer_name": "SAYUKTI MODI",
+    "customer_phone": "9825355388",
+    "product": "CARES DERMA SPF,WELLA SHAMPOO MASK",
+    "staff": "RAHUL",
+    "amount": 3050,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "11/05/2026",
+    "customer_name": "NALVAYA",
+    "customer_phone": "",
+    "product": "HAIR MIST",
+    "staff": "JAY",
+    "amount": 899,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "12/05/2026",
+    "customer_name": "RITA PANCHAL",
+    "customer_phone": "9978788291",
+    "product": "NASHI SHAMPOO,OIL",
+    "staff": "RAHUL",
+    "amount": 3050,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "13/05/2026",
+    "customer_name": "NAGRALAWALA",
+    "customer_phone": "9978614785",
+    "product": "NASHI BLOOM SHAMPOO CONDI",
+    "staff": "JAY",
+    "amount": 3350,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "13/05/2026",
+    "customer_name": "DR ANU SHAH",
+    "customer_phone": "",
+    "product": "NASHI BLOOM FULL KIT WITH MASK",
+    "staff": "JAY",
+    "amount": 7250,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "14/05/2026",
+    "customer_name": "RATHORE         MAM",
+    "customer_phone": "",
+    "product": "NASHI BLOOM FULL KIT WITH MASK  RETINOL CREAM 3780/- FACE WASH 1870/-",
+    "staff": "JAY",
+    "amount": 7250,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "17/05/2026",
+    "customer_name": "BINDI PATEL",
+    "customer_phone": "9737577149",
+    "product": "NASHI INSTANT MASK OIL DEEP INFUSION MASK BLOOM",
+    "staff": "RAHUL",
+    "amount": 6150,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "20/05/2026",
+    "customer_name": "NUPUR PANCHAL",
+    "customer_phone": "7434848078",
+    "product": "NASHI HYDRATING MASK 1900 DEEP INFUSION MASK 2100",
+    "staff": "RAHUL",
+    "amount": 4000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "20/05/2026",
+    "customer_name": "KHYATI MAKHIJA",
+    "customer_phone": "",
+    "product": "FULL BLOOM KIT WITHOUT MASK",
+    "staff": "JAY",
+    "amount": 7250,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "21/05/2026",
+    "customer_name": "JUHI NAYAK",
+    "customer_phone": "6352437316",
+    "product": "WELLA NUTRIENRICH SHAMPOO 750 WELLA NUTRIENRICH MASK 900",
+    "staff": "RAHUL",
+    "amount": 1650,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "21/05/2026",
+    "customer_name": "NAVYA SAVLANI",
+    "customer_phone": "9998463436",
+    "product": "BILLARIA ANTI HAIRFALL  SHAMPOO , MASK",
+    "staff": "UK",
+    "amount": 970,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "21/05/2026",
+    "customer_name": "----",
+    "customer_phone": "",
+    "product": "URBAN GLOW",
+    "staff": "MAANAV",
+    "amount": 600,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "21/05/2026",
+    "customer_name": "BINDI PATEL",
+    "customer_phone": "9737577149",
+    "product": "NASHI SPF SHAMPOO",
+    "staff": "JAY",
+    "amount": 1465,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "21/05/2026",
+    "customer_name": "SHIVANGI PANDYA",
+    "customer_phone": "6359090612",
+    "product": "NASHI SPF SHAMPOO OIL AND DEEP INFLUSION MASK HYDRATING MASK BLOOM",
+    "staff": "RAHUL",
+    "amount": 7110,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/05/2026",
+    "customer_name": "CHANDRIKABEN LABANA",
+    "customer_phone": "",
+    "product": "CARES DERMA",
+    "staff": "UK",
+    "amount": 169,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/05/2026",
+    "customer_name": "BHUMIKA MODI",
+    "customer_phone": "9925324029",
+    "product": "WELLA SHAMPOO MASK",
+    "staff": "JATIN",
+    "amount": 1565,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/05/2026",
+    "customer_name": "PREKSHA KODIYA",
+    "customer_phone": "7984705279",
+    "product": "CARES DERMA MOISTURISER ,  SPF AGELOCK MICRO POREMIST PORE CLEARING",
+    "staff": "FORAM",
+    "amount": 3298,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "24/05/2026",
+    "customer_name": "DHRUVI SONI",
+    "customer_phone": "9016878059",
+    "product": "NASHI SMALL KIT SHAMPOO,COND,OIL,MASK",
+    "staff": "UK",
+    "amount": 7250,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "25/05/2026",
+    "customer_name": "SARTHI PANCHAL",
+    "customer_phone": "7859816411",
+    "product": "NASHI SHAMPOO OIL THICKNING CONDI",
+    "staff": "MAANAV",
+    "amount": 7650,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "26/05/2026",
+    "customer_name": "PRIYAL JOSHI",
+    "customer_phone": "8849764950",
+    "product": "NASHI FILLER SHAMPOO MASK",
+    "staff": "RAHUL",
+    "amount": 3600,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "26/05/2026",
+    "customer_name": "DIMPAL PANCHAL",
+    "customer_phone": "7490916930",
+    "product": "NASHI BLOOM KIT WITHOUT MASK",
+    "staff": "RAHUL",
+    "amount": 8550,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "26/05/2026",
+    "customer_name": "PRIYANKA PANCHAL",
+    "customer_phone": "9173929910",
+    "product": "NASHI SHAMPOO OIL THICKNING CONDI BLOOM MASK",
+    "staff": "JATIN",
+    "amount": 8200,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/05/2026",
+    "customer_name": "PANCHAL RITA",
+    "customer_phone": "9978788291",
+    "product": "DEEP INFLUSION MASK",
+    "staff": "JAY",
+    "amount": 2300,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/05/2026",
+    "customer_name": "SEJAL MEDA",
+    "customer_phone": "9558758877",
+    "product": "DANDRUFF CONTROL KIT WITH SERUM",
+    "staff": "MAANAV",
+    "amount": 1365,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "30/05/2026",
+    "customer_name": "RAGINI SONI",
+    "customer_phone": "6353059092",
+    "product": "NASHI FILLER SHAMPOO CONDI AROMA SCRUB SHAMPOO SERUM BLOOM MASK",
+    "staff": "RAHUL",
+    "amount": 14750,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "30/05/2026",
+    "customer_name": "SHRUTI MINAMA",
+    "customer_phone": "7567153126",
+    "product": "ABSOLUT REPAIR",
+    "staff": "RAHUL",
+    "amount": 1740,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "30/05/2026",
+    "customer_name": "DR MEHGA VASAIYA",
+    "customer_phone": "9879578475",
+    "product": "NASHI BLOOM MIST",
+    "staff": "RAHUL",
+    "amount": 1300,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "31/05/2026",
+    "customer_name": "AKETA AMIN",
+    "customer_phone": "9427672788",
+    "product": "WELLA NUTRIENRICH WITH GOJI BERRY SHAMPOO,COND",
+    "staff": "RAHUL",
+    "amount": 1650,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "02/06/2026",
+    "customer_name": "NIDHI HADA",
+    "customer_phone": "9904350333",
+    "product": "NASHI FILLER MASK SHAMPOO & BLOOM HYDRATING MASK",
+    "staff": "JAY",
+    "amount": 3600,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "03/06/2026",
+    "customer_name": "ARCHNA SHAH",
+    "customer_phone": "9638394531",
+    "product": "NASHI BLOOM KIT",
+    "staff": "RAHUL",
+    "amount": 7250,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "04/06/2026",
+    "customer_name": "ARTI DHAMANIYA",
+    "customer_phone": "9981038143",
+    "product": "NASHI FULL BLOOM KIT WITH MIST",
+    "staff": "RAHUL",
+    "amount": 8850,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "05/06/2026",
+    "customer_name": "RAKHI SHAH",
+    "customer_phone": "6354115116",
+    "product": "NASHI SHAMPOO MASK FILLER",
+    "staff": "JATIN",
+    "amount": 3600,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "06/06/2026",
+    "customer_name": "BHANU PRIYA JHALA",
+    "customer_phone": "7697490657",
+    "product": "NASHI BLOOM SHAMPOO CONDI OIL & LIVING SPRAY",
+    "staff": "RAHUL",
+    "amount": 7250,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "07/06/2026",
+    "customer_name": "KASHVI PADWAL",
+    "customer_phone": "7016565654",
+    "product": "NASHI SHAMPOO CONDI OIL SMALL",
+    "staff": "JATIN",
+    "amount": 4800,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/06/2026",
+    "customer_name": "DR YUGMA PADWAL",
+    "customer_phone": "7435094814",
+    "product": "MIST",
+    "staff": "JAY",
+    "amount": 800,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "07/06/2026",
+    "customer_name": "MANAV",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "MANAV",
+    "amount": 169,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "11/06/2026",
+    "customer_name": "KHUSHBU JAIN",
+    "customer_phone": "9265308762",
+    "product": "NASHI BLUE KIT",
+    "staff": "JAY",
+    "amount": 6500,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "11/06/2026",
+    "customer_name": "TRUSHNA PARMAR",
+    "customer_phone": "8160556177",
+    "product": "NASHI FILLER SHAMPOO MASK",
+    "staff": "RAHUL",
+    "amount": 4950,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "11/06/2026",
+    "customer_name": "PAYAL AGRWAL",
+    "customer_phone": "9425920930",
+    "product": "NASHI SHAMPOO CONDI OIL SMALL",
+    "staff": "RAHUL",
+    "amount": 4800,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "13/06/2026",
+    "customer_name": "NEHA YADAV",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "14/06/2026",
+    "customer_name": "TANUJA MAHAVAR",
+    "customer_phone": "7435874389",
+    "product": "NASHI BIG KIT",
+    "staff": "JAY",
+    "amount": 10300,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "14/06/2026",
+    "customer_name": "ASHVI RATHOD",
+    "customer_phone": "9427276681",
+    "product": "ESSENTIAL NASHI",
+    "staff": "JATIN",
+    "amount": 6500,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "16/06/2026",
+    "customer_name": "PRERNA PARMAR",
+    "customer_phone": "9979477236",
+    "product": "NASHI FULL KIT WITHOUT MASK",
+    "staff": "RAHUL",
+    "amount": 6700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "17/06/2026",
+    "customer_name": "MONIKA SAVLANI",
+    "customer_phone": "7874602245",
+    "product": "NASHI FULL KIT",
+    "staff": "JATIN",
+    "amount": 9000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "17/06/2026",
+    "customer_name": "LAXMI AGARWAL",
+    "customer_phone": "7265021215",
+    "product": "CARES DERMA FACE WASH SPF",
+    "staff": "HONEY",
+    "amount": 720,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "17/06/2026",
+    "customer_name": "VAIDEHI THAKOR",
+    "customer_phone": "9099659900",
+    "product": "NASHI SHAMPOO CONDI",
+    "staff": "JAY",
+    "amount": 3400,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "18/06/2026",
+    "customer_name": "POOJA MUDRANI",
+    "customer_phone": "8156071372",
+    "product": "NASHI FILLER SHAMPOO CONDI OIL HYDRATING SPRAY MIST",
+    "staff": "MAANAV",
+    "amount": 8200,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "19/06/2026",
+    "customer_name": "ANJALI PASAYA",
+    "customer_phone": "6355082342",
+    "product": "NASHI SHAMPOO CONDI HYDRATING SPRAY UV OIL BLOOM DEEP INFUSION MASK & MIST",
+    "staff": "RAHUL",
+    "amount": 10545,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/06/2026",
+    "customer_name": "PINKYBEN NOKAM",
+    "customer_phone": "8141761892",
+    "product": "NASHI SHAMPOO CONDI OIL HYDRATING SPRAY",
+    "staff": "MAANAV",
+    "amount": 6700,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "22/06/2026",
+    "customer_name": "RUPALI PANCHAL",
+    "customer_phone": "8200015874",
+    "product": "NASHI SHAMPOO CONDI OIL HYDRATING SPRAY",
+    "staff": "RAHUL",
+    "amount": 6700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "23/06/2026",
+    "customer_name": "DR SHIVANI NAYAK",
+    "customer_phone": "9179944907",
+    "product": "NASHI ESSENTIAL KIT",
+    "staff": "JATIN",
+    "amount": 6500,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "24/06/2026",
+    "customer_name": "EKTA VASANI",
+    "customer_phone": "8347827456",
+    "product": "NASHI SHAMPOO CONDI OIL HYDRATING SPRAY",
+    "staff": "RAHUL",
+    "amount": 6700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "24/06/2026",
+    "customer_name": "AKANSHA",
+    "customer_phone": "",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "JAY",
+    "amount": 170,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "25/06/2026",
+    "customer_name": "LATABEN JAIN",
+    "customer_phone": "8160082900",
+    "product": "CARES DERMA FACE WASH",
+    "staff": "MAANAV",
+    "amount": 170,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "25/06/2026",
+    "customer_name": "PRIYANKA PANCHAL",
+    "customer_phone": "9106319782",
+    "product": "SKEYNDOR SPF50  AQUATHERM HYDRATION & CALM BALANCE & CLEAR BALANCE CLEANSING FOAM AGE LOCK NIGHT CREAM",
+    "staff": "FORAM",
+    "amount": 9815,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "26/06/2026",
+    "customer_name": "RAGINI SONI",
+    "customer_phone": "6353059092",
+    "product": "NASHI BIG OIL & HYDRATING SPRAY",
+    "staff": "RAHUL",
+    "amount": 5300,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "26/06/2026",
+    "customer_name": "ANU SHAH",
+    "customer_phone": "9426375777",
+    "product": "BLOOM DEEP INFUSION MASK",
+    "staff": "RAHUL",
+    "amount": 2300,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "26/06/2026",
+    "customer_name": "KHYATI MAKHIJA",
+    "customer_phone": "7990348733",
+    "product": "NASHI ARMONIA SHAMPOO SCRUB & BLOOM DEEP INFUSION MASK & OIL 100 ML & AGE LOCK PORE CLEARING SKIN WASH & DERMA CALM MIST & GEL CREAM",
+    "staff": "JAY",
+    "amount": 13765,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/06/2026",
+    "customer_name": "CHARUL LATA  KHANWANSHI",
+    "customer_phone": "7990463641",
+    "product": "CARES DERMA FACEWASH MOISTURISER & URBAN GLOW SPF",
+    "staff": "SONU",
+    "amount": 1368,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "27/06/2026",
+    "customer_name": "PREETY SIGH",
+    "customer_phone": "9897885077",
+    "product": "AGELOCK(RESURFACING BRIGHTEN UP CLEANSER)",
+    "staff": "UK",
+    "amount": 1100,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "27/06/2026",
+    "customer_name": "NEHA PARMAR",
+    "customer_phone": "8141056672",
+    "product": "NASHI BLOOM KIT",
+    "staff": "RAHUL",
+    "amount": 9550,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "27/06/2026",
+    "customer_name": "BHUMIKA PUROHIT",
+    "customer_phone": "7990347671",
+    "product": "NASHI SHAMPOO",
+    "staff": "JAY",
+    "amount": 1650,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "27/06/2026",
+    "customer_name": "PREETY SINGH",
+    "customer_phone": "9897885077",
+    "product": "NASHI FULL KIT WITH MIST",
+    "staff": "RAHUL",
+    "amount": 10850,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "ANVI KHANDEWAL",
+    "customer_phone": "9099399832",
+    "product": "ESSENTIAL ENERGY PREVENTING",
+    "staff": "RAHUL",
+    "amount": 3100,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "APEKSHA DABI",
+    "customer_phone": "8160672551",
+    "product": "NASHI SMALL KIT",
+    "staff": "RAHUL",
+    "amount": 6700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "KINARI PATEL",
+    "customer_phone": "9978920484",
+    "product": "INSTANT HYDRATING MASK PREVENTING TREATMENT",
+    "staff": "RAHUL",
+    "amount": 5000,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "APEKSHA LILWANI",
+    "customer_phone": "7016191596",
+    "product": "PREVENTING TRATMENT ARMONIA SHAMPOO",
+    "staff": "MANAV",
+    "amount": 4900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "ANU SHAH",
+    "customer_phone": "9426375777",
+    "product": "TANGLE BRUSH",
+    "staff": "SONU",
+    "amount": 650,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "PINKY NOKAM",
+    "customer_phone": "6356845080",
+    "product": "PREVENTION TREATMENT",
+    "staff": "RAHUL",
+    "amount": 3100,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "KIRAN PADWAL",
+    "customer_phone": "9687609993",
+    "product": "BLOOM MASK",
+    "staff": "",
+    "amount": 1900,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "PRATIKSHA PANCHAL",
+    "customer_phone": "7990627460",
+    "product": "MASK,INFUSION",
+    "staff": "SONU",
+    "amount": 4200,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "KRISHA LABANA",
+    "customer_phone": "9687609993",
+    "product": "HYDRATING SPRAY,PREVENTING TREATMENT",
+    "staff": "UK",
+    "amount": 5000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "MAYA PRITMANI",
+    "customer_phone": "9723613136",
+    "product": "BLOOM SHAMPOO CONDI ARGAN SHAMPOO",
+    "staff": "MAANAV",
+    "amount": 5050,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "REEMONA",
+    "customer_phone": "9265658775",
+    "product": "NASHI SMALL KIT",
+    "staff": "",
+    "amount": 6700,
+    "payment_method": "UPI"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "KHYATI MAKHIJA",
+    "customer_phone": "7990348733",
+    "product": "NASHI ESSENTIAL OIL NASHI THICKNING OIL SKEYNDOR POEWR HYLAURONIC EYE GEL",
+    "staff": "RAHUL FORAM",
+    "amount": 9400,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "28/06/2026",
+    "customer_name": "PRACHI SHAH",
+    "customer_phone": "8156016760",
+    "product": "NASHI THICKNING OIL & SHEA SHAMPOO",
+    "staff": "RAHUL",
+    "amount": 5360,
+    "payment_method": "UPI"
+  }
+]
