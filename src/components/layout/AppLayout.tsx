@@ -9,7 +9,7 @@ export default function AppLayout() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   return (
-    <div className="flex h-screen w-full overflow-hidden text-white selection:bg-[#D4AF37]/20 font-sans p-4 gap-6 relative" style={{ background: '#0A0A0A' }}>
+    <div className="flex h-screen w-full overflow-hidden text-white selection:bg-[#CD7F32]/20 font-sans p-4 gap-6 relative" style={{ background: '#0A0A0A' }}>
       
       {/* Ambient gold mesh background */}
       <div className="ambient-gold-mesh" />
@@ -52,3 +52,4 @@ export default function AppLayout() {
     </div>
   );
 }
+

@@ -227,7 +227,7 @@ export default function Inventory() {
                       <td className="px-6 py-4 text-center text-white/60">{item.sold_quantity}</td>
                       <td className="px-6 py-4 text-center text-white/60">{item.salon_consumption}</td>
                       <td className="px-6 py-4 text-center">
-                        <span className={`inline-flex items-center justify-center px-3 py-1 rounded-full text-sm font-bold`} style={item.current_stock <= 0 ? { background: 'rgba(207,102,121,0.1)', color: '#CF6679', border: '1px solid rgba(207,102,121,0.2)' } : { background: 'rgba(205, 127, 50,0.08)', color: '#D4AF37', border: '1px solid rgba(205, 127, 50,0.2)' }}>
+                        <span className={`inline-flex items-center justify-center px-3 py-1 rounded-full text-sm font-bold`} style={item.current_stock <= 0 ? { background: 'rgba(207,102,121,0.1)', color: '#CF6679', border: '1px solid rgba(207,102,121,0.2)' } : { background: 'rgba(205, 127, 50,0.08)', color: '#CD7F32', border: '1px solid rgba(205, 127, 50,0.2)' }}>
                           {item.current_stock}
                         </span>
                       </td>
@@ -333,3 +333,4 @@ export default function Inventory() {
     </div>
   );
 }
+

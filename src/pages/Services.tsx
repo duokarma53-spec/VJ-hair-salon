@@ -124,7 +124,7 @@ export default function Services() {
         <div className="glass-card p-6">
           <div className="flex items-center">
             <div className="flex-shrink-0 p-3 rounded-2xl" style={{ background: 'rgba(205, 127, 50,0.08)', border: '1px solid rgba(205, 127, 50,0.15)' }}>
-              <Scissors className="h-6 w-6" style={{ color: '#D4AF37' }} />
+              <Scissors className="h-6 w-6" style={{ color: '#CD7F32' }} />
             </div>
             <div className="ml-5 w-0 flex-1">
               <dl>
@@ -183,7 +183,7 @@ export default function Services() {
                 {Object.entries(groupedServices).map(([category, items]) => (
                   <React.Fragment key={category}>
                     <tr className="bg-black/40 border-y border-white/10">
-                      <td colSpan={3} className="px-6 py-3 text-xs font-bold tracking-widest uppercase" style={{ color: '#D4AF37' }}>
+                      <td colSpan={3} className="px-6 py-3 text-xs font-bold tracking-widest uppercase" style={{ color: '#CD7F32' }}>
                         {category}
                       </td>
                     </tr>
@@ -264,3 +264,4 @@ export default function Services() {
     </div>
   );
 }
+

@@ -490,7 +490,7 @@ export default function Dashboard() {
               <button
                 onClick={handleUpdateStock}
                 className="w-full py-3 rounded-xl font-bold text-sm transition-all text-black"
-                style={{ background: 'linear-gradient(135deg, #D4AF37, #E5C158)', boxShadow: '0 4px 16px rgba(205, 127, 50,0.2)' }}
+                style={{ background: 'linear-gradient(135deg, #CD7F32, #E5C158)', boxShadow: '0 4px 16px rgba(205, 127, 50,0.2)' }}
               >
                 Save Changes
               </button>
@@ -501,3 +501,4 @@ export default function Dashboard() {
     </motion.div>
   );
 }
+

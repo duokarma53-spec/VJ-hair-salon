@@ -9,7 +9,7 @@ export default function ProtectedRoute() {
     return (
       <div className="flex h-screen w-full items-center justify-center bg-[#FAF9F6]">
         <div className="flex flex-col items-center gap-4">
-          <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#D4AF37] border-t-transparent"></div>
+          <div className="h-8 w-8 animate-spin rounded-full border-4 border-[#CD7F32] border-t-transparent"></div>
           <p className="text-[#36454F] font-light tracking-widest text-sm uppercase">Loading Workspace...</p>
         </div>
       </div>
@@ -22,3 +22,4 @@ export default function ProtectedRoute() {
 
   return <Outlet />;
 }
+

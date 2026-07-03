@@ -209,11 +209,11 @@ export default function Expenses() {
       {/* Inventory Analytics Cards */}
       <div className="glass-card p-6" style={{ border: '1px solid rgba(205, 127, 50,0.1)' }}>
         <div className="flex justify-between items-center mb-6">
-          <h4 className="font-numbers text-2xl tracking-wide text-white flex items-center"><Package className="w-5 h-5 mr-3" style={{ color: '#D4AF37' }}/> Inventory Accounting</h4>
+          <h4 className="font-numbers text-2xl tracking-wide text-white flex items-center"><Package className="w-5 h-5 mr-3" style={{ color: '#CD7F32' }}/> Inventory Accounting</h4>
           <button 
             onClick={() => setShowInventoryInfo(!showInventoryInfo)}
             className="text-xs font-bold uppercase tracking-widest px-3 py-1.5 rounded-lg border transition-colors hover:bg-white/5"
-            style={{ borderColor: 'rgba(205, 127, 50,0.3)', color: '#D4AF37' }}
+            style={{ borderColor: 'rgba(205, 127, 50,0.3)', color: '#CD7F32' }}
           >
             {showInventoryInfo ? 'Hide Logic' : 'How is this calculated?'}
           </button>
@@ -221,8 +221,8 @@ export default function Expenses() {
         
         {showInventoryInfo && (
           <div className="mb-6 p-4 rounded-xl text-sm font-light leading-relaxed" style={{ background: 'rgba(205, 127, 50,0.05)', border: '1px dashed rgba(205, 127, 50,0.2)' }}>
-            <p className="text-white mb-2"><strong style={{ color: '#D4AF37' }}>Total Capital Invested:</strong> Qty Purchased × Purchase Price of all products ever bought.</p>
-            <p className="text-white mb-2"><strong style={{ color: '#D4AF37' }}>Current Stock Value:</strong> Current Qty in Stock × Purchase Price. (Value sitting on your shelves).</p>
+            <p className="text-white mb-2"><strong style={{ color: '#CD7F32' }}>Total Capital Invested:</strong> Qty Purchased × Purchase Price of all products ever bought.</p>
+            <p className="text-white mb-2"><strong style={{ color: '#CD7F32' }}>Current Stock Value:</strong> Current Qty in Stock × Purchase Price. (Value sitting on your shelves).</p>
             <p className="text-white mb-2"><strong className="text-danger">Salon Consumption:</strong> Qty Used Internally × Purchase Price. (Products used for services, not sold to clients. This represents an indirect cost).</p>
             <p className="text-white mb-2"><strong className="text-success">Retail Revenue:</strong> Qty Sold to Clients × Selling Price. (Money received from selling products).</p>
             <p className="text-white"><strong className="text-success">Net Retail Profit:</strong> Retail Revenue − (Qty Sold to Clients × Purchase Price). (Actual profit made from retail sales only).</p>
@@ -275,15 +275,15 @@ export default function Expenses() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="glass-card p-6 flex flex-col justify-center" style={{ border: '1px solid rgba(205, 127, 50,0.1)' }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: 'rgba(205, 127, 50,0.4)' }}>Today's Expenses</p>
-          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#D4AF37' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.todayExpenses.toLocaleString()}</p>
+          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#CD7F32' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.todayExpenses.toLocaleString()}</p>
         </div>
         <div className="glass-card p-6 flex flex-col justify-center" style={{ border: '1px solid rgba(205, 127, 50,0.1)' }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: 'rgba(205, 127, 50,0.4)' }}>This Month</p>
-          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#D4AF37' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.monthExpenses.toLocaleString()}</p>
+          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#CD7F32' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.monthExpenses.toLocaleString()}</p>
         </div>
         <div className="glass-card p-6 flex flex-col justify-center" style={{ border: '1px solid rgba(205, 127, 50,0.1)' }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: 'rgba(205, 127, 50,0.4)' }}>This Year</p>
-          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#D4AF37' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.yearExpenses.toLocaleString()}</p>
+          <p className="font-numbers text-4xl font-light tracking-tight flex items-center mt-2" style={{ color: '#CD7F32' }}><IndianRupee className="w-6 h-6 mr-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}/>{stats.yearExpenses.toLocaleString()}</p>
         </div>
         <div className="glass-card p-6 flex flex-col justify-center" style={{ border: '1px solid rgba(207,102,121,0.2)', background: 'rgba(207,102,121,0.05)' }}>
           <p className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: '#CF6679' }}>Pending Payments</p>
@@ -385,7 +385,7 @@ export default function Expenses() {
         {/* Sidebar Analytics */}
         <div className="lg:col-span-1 space-y-6">
           <div className="glass-card p-6 sticky top-6" style={{ border: '1px solid rgba(205, 127, 50,0.1)' }}>
-            <h4 className="text-xl font-light tracking-wide text-white mb-6 flex items-center" style={{ fontFamily: "'Cinzel', serif" }}><PieChart className="w-5 h-5 mr-3" style={{ color: '#D4AF37' }}/> Monthly Analytics</h4>
+            <h4 className="text-xl font-light tracking-wide text-white mb-6 flex items-center" style={{ fontFamily: "'Cinzel', serif" }}><PieChart className="w-5 h-5 mr-3" style={{ color: '#CD7F32' }}/> Monthly Analytics</h4>
             {stats.categoryAnalytics.length === 0 ? (
               <p className="text-sm text-white/60 font-light">No expenses this month.</p>
             ) : (
@@ -500,3 +500,4 @@ export default function Expenses() {
     </div>
   );
 }
+

@@ -74,6 +74,7 @@ const customerSchema = z.object({
   dobDay: z.string().optional(),
   dobMonth: z.string().optional(),
   dobYear: z.string().optional(),
+  payment_due: z.string().optional(),
   notes: z.string().optional()
 });
 type CustomerFormData = z.infer<typeof customerSchema>;
@@ -311,7 +312,7 @@ export default function Customers() {
     setCustomerStaffId('');
     setAddFinalAmount('');
     setAddPaymentMethod('Cash');
-    reset({ name: '', phone: '', dobDay: '', dobMonth: '', dobYear: '', notes: '' });
+    reset({ name: '', phone: '', dobDay: '', dobMonth: '', dobYear: '', payment_due: '', notes: '' });
     setIsCustomerModalOpen(true);
   };
 
@@ -353,6 +354,7 @@ export default function Customers() {
       dobDay: dDay,
       dobMonth: dMonth,
       dobYear: dYear,
+      payment_due: customer.payment_due ? customer.payment_due.toString() : '',
       notes: customer.notes || ''
     });
     setIsCustomerModalOpen(true);
@@ -424,6 +426,8 @@ export default function Customers() {
         dob: parsedDob,
         services_taken: parsedServices,
         products_bought: parsedProducts,
+        payment_due: data.payment_due ? Number(data.payment_due) : 0,
+        notes: data.notes || null
       };
       
       if (!customerToEdit) {
@@ -915,13 +919,14 @@ export default function Customers() {
                   <th className="px-6 py-5">Customer</th>
                   <th className="px-6 py-5">Contact</th>
                   <th className="px-6 py-5">Lifetime Spend</th>
+                  <th className="px-6 py-5">Details</th>
                   <th className="px-6 py-5 text-right">Actions</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-border">
                 {processedCustomers.length === 0 && (
                   <tr>
-                    <td colSpan={4} className="text-center py-16 text-white/60">
+                    <td colSpan={5} className="text-center py-16 text-white/60">
                       <User className="h-10 w-10 mx-auto mb-4 opacity-50" />
                       <p className="text-base font-light tracking-wide text-white">No customers found</p>
                     </td>
@@ -932,7 +937,7 @@ export default function Customers() {
                   <React.Fragment key={groupName}>
                     {/* Group Header */}
                     <tr className="bg-black/60">
-                      <td colSpan={4} className="px-6 py-3 text-xs font-bold tracking-widest text-primary uppercase border-y border-white/5">
+                      <td colSpan={5} className="px-6 py-3 text-xs font-bold tracking-widest text-primary uppercase border-y border-white/5">
                         {groupName} <span className="text-white/40 ml-2">({groupCustomers.length})</span>
                       </td>
                     </tr>
@@ -959,7 +964,7 @@ export default function Customers() {
                               {customer.phone}
                               {customer.phone && (
                                 <a 
-                                  href={`https://wa.me/${customer.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hello from VJ Hair Salon!')}`}
+                                  href={`https://wa.me/${customer.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hello from TEN11!')}`}
                                   target="_blank" 
                                   rel="noopener noreferrer"
                                   className="text-[#25D366] hover:text-[#128C7E] transition-colors bg-[#25D366]/10 p-1.5 rounded-lg"
@@ -974,6 +979,19 @@ export default function Customers() {
                             <span className="font-light text-white text-lg">
                               ₹{getCustomerTotalSpend(customer).toLocaleString()}
                             </span>
+                          </td>
+                          <td className="px-6 py-4 whitespace-normal min-w-[200px]">
+                            {customer.payment_due && customer.payment_due > 0 ? (
+                              <div className="text-xs text-danger font-bold mb-1.5 uppercase tracking-wider bg-danger/10 border border-danger/30 inline-block px-2 py-0.5 rounded">
+                                ⚠️ Payment Due: ₹{customer.payment_due.toLocaleString()}
+                              </div>
+                            ) : null}
+                            {customer.notes && (
+                              <div className="text-xs text-white/70 italic flex items-start gap-1">
+                                <div className="w-3 h-3 border-l border-b border-white/20 mt-0.5 shrink-0" />
+                                {customer.notes}
+                              </div>
+                            )}
                           </td>
                           <td className="px-6 py-4 text-right whitespace-nowrap">
                             <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -1052,6 +1070,11 @@ export default function Customers() {
                   <label className="block text-xs font-bold tracking-widest text-white/60 uppercase mb-2">Phone Number *</label>
                   <input type="tel" {...register("phone")} className="glass-input w-full px-4 py-3" placeholder="e.g. 9876543210" />
                   {errors.phone && <p className="text-danger text-xs mt-1.5">{errors.phone.message}</p>}
+                </div>
+                <div>
+                  <label className="block text-xs font-bold tracking-widest text-white/60 uppercase mb-2">Payment Due (₹)</label>
+                  <input type="number" {...register("payment_due")} className="glass-input w-full px-4 py-3" placeholder="e.g. 500" />
+                  {errors.payment_due && <p className="text-danger text-xs mt-1.5">{errors.payment_due.message}</p>}
                 </div>
                 <div>
                   <label className="block text-xs font-bold tracking-widest text-white/60 uppercase mb-2">Personal Note (Optional)</label>

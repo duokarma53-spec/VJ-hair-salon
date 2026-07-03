@@ -69,6 +69,7 @@ interface Appointment {
   status: AppointmentStatus;
   staff_id: string | null;
   converted_visit_id: string | null;
+  payment_due?: number;
   staff?: { name: string } | null;
   appointment_services?: { service_id: number; service_name: string; price: number }[];
 }
@@ -99,6 +100,7 @@ export default function Appointments() {
     date: format(new Date(), 'yyyy-MM-dd'),
     time: '10:00',
     staff_id: '',
+    payment_due: '',
     notes: '',
   });
   const [formServices, setFormServices] = useState<{ serviceId: string }[]>([{ serviceId: '' }]);
@@ -213,7 +215,7 @@ export default function Appointments() {
   const openAddModal = () => {
     setRepeatData(null);
     setEditingAppt(null);
-    setForm({ customer_name: '', customer_phone: '', date: format(new Date(), 'yyyy-MM-dd'), time: '10:00', staff_id: '', notes: '' });
+    setForm({ customer_name: '', customer_phone: '', date: format(new Date(), 'yyyy-MM-dd'), time: '10:00', staff_id: '', payment_due: '', notes: '' });
     setFormServices([{ serviceId: '' }]);
     setIsModalOpen(true);
   };
@@ -228,6 +230,7 @@ export default function Appointments() {
       date: format(dateObj, 'yyyy-MM-dd'),
       time: format(dateObj, 'HH:mm'),
       staff_id: appt.staff_id || '',
+      payment_due: appt.payment_due ? appt.payment_due.toString() : '',
       notes: appt.notes || '',
     });
     if (appt.appointment_services && appt.appointment_services.length > 0) {
@@ -247,6 +250,7 @@ export default function Appointments() {
       date: format(new Date(), 'yyyy-MM-dd'),
       time: format(parseISO(appt.appointment_date), 'HH:mm'),
       staff_id: appt.staff_id || '',
+      payment_due: appt.payment_due ? appt.payment_due.toString() : '',
       notes: appt.notes || '',
     });
     const existingSvcs = (appt.appointment_services || []).map(s => ({ serviceId: s.service_id?.toString() || '' }));
@@ -269,6 +273,7 @@ export default function Appointments() {
             customer_name: form.customer_name.trim(),
             customer_phone: form.customer_phone.trim(),
             appointment_date: appointmentDate.toISOString(),
+            payment_due: form.payment_due ? Number(form.payment_due) : 0,
             notes: form.notes.trim(),
             staff_id: form.staff_id || null,
           })
@@ -292,6 +297,7 @@ export default function Appointments() {
             customer_name: form.customer_name.trim(),
             customer_phone: form.customer_phone.trim(),
             appointment_date: appointmentDate.toISOString(),
+            payment_due: form.payment_due ? Number(form.payment_due) : 0,
             notes: form.notes.trim(),
             staff_id: form.staff_id || null,
             status: 'scheduled',
@@ -528,7 +534,7 @@ export default function Appointments() {
     const svcs = (appt.appointment_services || []).map(s => s.service_name).join(', ');
     const dateStr = format(parseISO(appt.appointment_date), 'dd MMM yyyy, hh:mm a');
     const staffName = appt.staff?.name || '';
-    const msg = `Hello ${appt.customer_name}!\n\nThis is a reminder for your appointment at VJ Hair Salon:\n- Date: ${dateStr}\n- Services: ${svcs || 'As discussed'}\n- Staff: ${staffName || 'Any available'}\n\nWe look forward to seeing you!!!`;
+    const msg = `Hello ${appt.customer_name}!\n\nThis is a reminder for your appointment at TEN11 Salon:\n- Date: ${dateStr}\n- Services: ${svcs || 'As discussed'}\n- Staff: ${staffName || 'Any available'}\n\nWe look forward to seeing you!!!`;
     return `https://wa.me/${appt.customer_phone.replace(/\D/g, '')}?text=${encodeURIComponent(msg)}`;
   };
 
@@ -598,8 +604,8 @@ export default function Appointments() {
             return (
               <div key={dateKey}>
                 <div className="flex items-center gap-3 mb-4">
-                  <CalendarDays className="w-4 h-4" style={{ color: 'rgba(205, 127, 50,0.6)' }} />
-                  <h3 className="text-sm font-bold tracking-widest uppercase" style={{ color: isDateToday ? '#D4AF37' : 'rgba(255,255,255,0.4)' }}>
+                  <CalendarDays className="w-4 h-4" style={{ color: 'rgba(205,127,50,0.6)' }} />
+                  <h3 className="text-sm font-bold tracking-widest uppercase" style={{ color: isDateToday ? '#CD7F32' : 'rgba(255,255,255,0.4)' }}>
                     {isDateToday ? "Today — " : ""}{format(dateObj, 'EEEE, dd MMMM yyyy')}
                   </h3>
                 </div>
@@ -641,6 +647,11 @@ export default function Appointments() {
                             )}
                           </div>
                           {appt.notes && <p className="mt-1 text-xs text-white/35 italic">{appt.notes}</p>}
+                          {appt.payment_due && appt.payment_due > 0 ? (
+                            <div className="mt-1.5 text-xs text-danger font-bold uppercase tracking-wider bg-danger/10 border border-danger/30 inline-block px-2 py-0.5 rounded">
+                              ⚠️ Payment Due: ₹{appt.payment_due.toLocaleString()}
+                            </div>
+                          ) : null}
                         </div>
 
                         {/* Total */}
@@ -911,6 +922,18 @@ export default function Appointments() {
                 </div>
               </div>
 
+              {/* Payment Due */}
+              <div>
+                <label className="block text-xs font-bold tracking-widest text-white/60 uppercase mb-2">Payment Due (₹) - Optional</label>
+                <input
+                  type="number"
+                  value={form.payment_due}
+                  onChange={e => setForm(f => ({ ...f, payment_due: e.target.value }))}
+                  className="glass-input w-full px-4 py-3 bg-black/40"
+                  placeholder="e.g. 500"
+                />
+              </div>
+
               {/* Notes */}
               <div>
                 <label className="block text-xs font-bold tracking-widest text-white/60 uppercase mb-2">Notes (Optional)</label>
@@ -1060,3 +1083,4 @@ export default function Appointments() {
     </div>
   );
 }
+

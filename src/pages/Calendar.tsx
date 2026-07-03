@@ -96,7 +96,7 @@ export default function CalendarView() {
               key={val}
               onClick={() => setFilter(val)}
               className="px-4 py-2 text-xs font-bold rounded-lg transition-all duration-200"
-              style={filter === val ? { background: val === 'appointments' ? 'rgba(96,165,250,0.15)' : 'rgba(205, 127, 50,0.12)', color: val === 'appointments' ? '#60a5fa' : '#D4AF37', border: `1px solid ${val === 'appointments' ? 'rgba(96,165,250,0.3)' : 'rgba(205, 127, 50,0.25)'}` } : { color: 'rgba(255,255,255,0.4)', border: '1px solid transparent' }}
+              style={filter === val ? { background: val === 'appointments' ? 'rgba(96,165,250,0.15)' : 'rgba(205, 127, 50,0.12)', color: val === 'appointments' ? '#60a5fa' : '#CD7F32', border: `1px solid ${val === 'appointments' ? 'rgba(96,165,250,0.3)' : 'rgba(205, 127, 50,0.25)'}` } : { color: 'rgba(255,255,255,0.4)', border: '1px solid transparent' }}
             >
               {label}
             </button>
@@ -110,14 +110,14 @@ export default function CalendarView() {
           <div className="flex items-center justify-between mb-6">
             <h3 className="text-2xl font-light tracking-tight text-white" style={{ fontFamily: "'Cinzel', serif" }}>{format(currentDate, 'MMMM yyyy')}</h3>
             <div className="flex gap-2">
-              <button onClick={prevMonth} className="p-2 rounded-full text-white/50 hover:text-[#D4AF37] border border-transparent hover:border-[rgba(205, 127, 50,0.2)] transition-all"><ChevronLeft className="w-5 h-5" /></button>
-              <button onClick={nextMonth} className="p-2 rounded-full text-white/50 hover:text-[#D4AF37] border border-transparent hover:border-[rgba(205, 127, 50,0.2)] transition-all"><ChevronRight className="w-5 h-5" /></button>
+              <button onClick={prevMonth} className="p-2 rounded-full text-white/50 hover:text-[#CD7F32] border border-transparent hover:border-[rgba(205, 127, 50,0.2)] transition-all"><ChevronLeft className="w-5 h-5" /></button>
+              <button onClick={nextMonth} className="p-2 rounded-full text-white/50 hover:text-[#CD7F32] border border-transparent hover:border-[rgba(205, 127, 50,0.2)] transition-all"><ChevronRight className="w-5 h-5" /></button>
             </div>
           </div>
 
           {/* Legend */}
           <div className="flex gap-4 mb-4 text-xs font-bold tracking-wider">
-            {(filter === 'all' || filter === 'visits') && <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full" style={{ background: '#D4AF37' }} />Visits</span>}
+            {(filter === 'all' || filter === 'visits') && <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full" style={{ background: '#CD7F32' }} />Visits</span>}
             {(filter === 'all' || filter === 'appointments') && <span className="flex items-center gap-1.5" style={{ color: '#60a5fa' }}><span className="w-2.5 h-2.5 rounded-full bg-blue-400" />Appointments</span>}
           </div>
 
@@ -144,11 +144,11 @@ export default function CalendarView() {
                   onMouseEnter={e => { if (!isSelected) { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(205, 127, 50,0.2)'; (e.currentTarget as HTMLElement).style.background = 'rgba(205, 127, 50,0.04)'; } }}
                   onMouseLeave={e => { if (!isSelected) { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(205, 127, 50,0.06)'; (e.currentTarget as HTMLElement).style.background = 'rgba(17,17,17,0.6)'; } }}
                 >
-                  <span className={`text-sm font-bold mb-1 ${isSelected ? 'text-[#D4AF37]' : 'text-white/70'}`}>{format(day, 'd')}</span>
+                  <span className={`text-sm font-bold mb-1 ${isSelected ? 'text-[#CD7F32]' : 'text-white/70'}`}>{format(day, 'd')}</span>
                   <div className="mt-auto space-y-1">
                     {dayVisits.length > 0 && (
                       <div className="text-xs">
-                        <div className="font-semibold flex items-center" style={{ color: isSelected ? '#E5C158' : '#D4AF37' }}>₹{dayRevenue.toLocaleString()}</div>
+                        <div className="font-semibold flex items-center" style={{ color: isSelected ? '#E5C158' : '#CD7F32' }}>₹{dayRevenue.toLocaleString()}</div>
                         <div className={`flex items-center ${isSelected ? 'text-white/90' : 'text-white/50'}`}><Users className="w-3 h-3 mr-0.5" />{dayVisits.length}</div>
                       </div>
                     )}
@@ -174,7 +174,7 @@ export default function CalendarView() {
             {(filter === 'all' || filter === 'visits') && (
               <div className="p-4 rounded-2xl" style={{ background: 'rgba(17,17,17,0.6)', border: '1px solid rgba(205, 127, 50,0.1)' }}>
                 <p className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: 'rgba(205, 127, 50,0.4)' }}>Revenue</p>
-                <p className="text-2xl font-light flex items-center" style={{ color: '#D4AF37' }}><IndianRupee className="w-4 h-4 mr-0.5" />{totalRevenue.toLocaleString()}</p>
+                <p className="text-2xl font-light flex items-center" style={{ color: '#CD7F32' }}><IndianRupee className="w-4 h-4 mr-0.5" />{totalRevenue.toLocaleString()}</p>
               </div>
             )}
             {(filter === 'all' || filter === 'appointments') && (
@@ -235,7 +235,7 @@ export default function CalendarView() {
                         onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = 'rgba(205, 127, 50,0.08)'; }}>
                         <div className="flex justify-between items-start mb-3">
                           <h4 className="font-medium text-white">{i + 1}. {v.customer?.name || 'Walk-in'}</h4>
-                          <span className="font-bold" style={{ color: '#D4AF37' }}>₹{(v.grand_total || 0).toLocaleString()}</span>
+                          <span className="font-bold" style={{ color: '#CD7F32' }}>₹{(v.grand_total || 0).toLocaleString()}</span>
                         </div>
                         <div className="text-sm text-white/60 space-y-1.5">
                           {v.visit_services?.map((svc: any, idx: number) => (
@@ -275,3 +275,4 @@ export default function CalendarView() {
     </div>
   );
 }
+
