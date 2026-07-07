@@ -237,6 +237,8 @@ CREATE TABLE public.customer_visits (
     service_total NUMERIC DEFAULT 0,
     product_total NUMERIC DEFAULT 0,
     grand_total NUMERIC DEFAULT 0,
+    original_total NUMERIC DEFAULT 0,
+    discount_amount NUMERIC DEFAULT 0,
     payment_method TEXT DEFAULT 'Cash',
     staff_id BIGINT REFERENCES public.staff(id) ON DELETE SET NULL,
     is_deleted BOOLEAN DEFAULT false,
