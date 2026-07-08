@@ -78,7 +78,7 @@ export default function Header({ toggleSidebar, isSidebarOpen = true }: HeaderPr
   const sendWhatsAppGreeting = (customer: any) => {
     if (!customer.phone) return;
     const cleanPhone = customer.phone.replace(/\D/g, '');
-    const message = `A Very Happy Birthday from Team VJ Hair Salon!!!\n\nTo make your special day even more memorable, we're delighted to offer you 50% OFF on any ONE service, valid exclusively until today.\n\nWe look forward to celebrating with you!\n\nWith love,\nTeam VJ Hair Salon`;
+    const message = `A Very Happy Birthday from Team VJ hair & beauty studio!!!\n\nTo make your special day even more memorable, we're delighted to offer you 50% OFF on any ONE service, valid exclusively until today.\n\nWe look forward to celebrating with you!\n\nWith love,\nTeam VJ hair & beauty studio`;
     const url = `https://wa.me/91${cleanPhone}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };

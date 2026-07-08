@@ -534,7 +534,7 @@ export default function Appointments() {
     const svcs = (appt.appointment_services || []).map(s => s.service_name).join(', ');
     const dateStr = format(parseISO(appt.appointment_date), 'dd MMM yyyy, hh:mm a');
     const staffName = appt.staff?.name || '';
-    const msg = `Hello ${appt.customer_name}!\n\nThis is a reminder for your appointment at VJ Hair Salon:\n- Date: ${dateStr}\n- Services: ${svcs || 'As discussed'}\n- Staff: ${staffName || 'Any available'}\n\nWe look forward to seeing you!!!`;
+    const msg = `Hello ${appt.customer_name}!\n\nThis is a reminder for your appointment at VJ hair & beauty studio:\n- Date: ${dateStr}\n- Services: ${svcs || 'As discussed'}\n- Staff: ${staffName || 'Any available'}\n\nWe look forward to seeing you!!!`;
     return `https://wa.me/${appt.customer_phone.replace(/\D/g, '')}?text=${encodeURIComponent(msg)}`;
   };
 

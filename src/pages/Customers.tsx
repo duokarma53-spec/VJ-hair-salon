@@ -964,7 +964,7 @@ export default function Customers() {
                               {customer.phone}
                               {customer.phone && (
                                 <a 
-                                  href={`https://wa.me/${customer.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hello from VJ Hair Salon!')}`}
+                                  href={`https://wa.me/${customer.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hello from VJ hair & beauty studio!')}`}
                                   target="_blank" 
                                   rel="noopener noreferrer"
                                   className="text-[#25D366] hover:text-[#128C7E] transition-colors bg-[#25D366]/10 p-1.5 rounded-lg"

@@ -22,7 +22,7 @@ export const generateInvoicePDF = (data: InvoiceData) => {
   // Salon Header
   doc.setFontSize(22);
   doc.setTextColor(200, 157, 60); // Gold color
-  doc.text('VJ HAIR SALON', 14, 22);
+  doc.text('VJ HAIR & BEAUTY STUDIO', 14, 22);
   
   doc.setFontSize(10);
   doc.setTextColor(100, 100, 100);
@@ -114,8 +114,8 @@ export const generateInvoicePDF = (data: InvoiceData) => {
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');
   doc.setTextColor(150, 150, 150);
-  doc.text('Thank you for choosing VJ Hair Salon!', 105, 280, { align: 'center' });
+  doc.text('Thank you for choosing VJ hair & beauty studio!', 105, 280, { align: 'center' });
 
   // Save PDF
-  doc.save(`VJ_Hair_Salon_Invoice_${data.invoiceNumber}.pdf`);
+  doc.save(`VJ_Hair_Beauty_Studio_Invoice_${data.invoiceNumber}.pdf`);
 };

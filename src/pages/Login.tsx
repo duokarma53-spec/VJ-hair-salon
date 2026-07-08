@@ -114,7 +114,7 @@ export default function Login() {
               className="text-7xl xl:text-8xl mb-5 leading-none"
               style={{ fontFamily: "'Cinzel', 'Playfair Display', Georgia, serif", color: 'var(--gold)', fontWeight: 400, letterSpacing: '0.04em' }}
             >
-              VJ Hair Salon
+              VJ hair & beauty studio
             </h1>
             <p className="text-[11px] font-light tracking-[0.2em] uppercase" style={{ color: 'rgba(184,184,184,0.4)' }}>
               Luxury Salon Operating System
@@ -168,13 +168,13 @@ export default function Login() {
                 className="mx-auto w-24 h-24 mb-6 rounded-full overflow-hidden shadow-2xl"
                 style={{ border: '1px solid rgba(200, 157, 60,0.3)', boxShadow: '0 0 30px rgba(200, 157, 60,0.08)' }}
               >
-                <img src="/logo.jpeg" alt="VJ Hair Salon Logo" className="w-full h-full object-cover" />
+                <img src="/logo.jpeg" alt="VJ hair & beauty studio Logo" className="w-full h-full object-cover" />
               </div>
               <h1
                 className="text-4xl mb-2 leading-none"
                 style={{ fontFamily: "'Cinzel', 'Playfair Display', Georgia, serif", color: 'var(--gold)', fontWeight: 400, letterSpacing: '0.06em' }}
               >
-                VJ Hair Salon
+                VJ hair & beauty studio
               </h1>
               <p className="text-[9px] uppercase tracking-[0.35em] font-bold" style={{ color: 'rgba(200, 157, 60,0.5)' }}>
                 Exclusive Access
@@ -281,7 +281,7 @@ export default function Login() {
         >
           <span className="flex items-center gap-2">
             <Lock className="w-3 h-3" style={{ color: 'rgba(184,184,184,0.3)' }} />
-            © 2026 VJ Hair Salon. All rights reserved.
+            © 2026 VJ hair & beauty studio. All rights reserved.
           </span>
           <span className="w-px h-3" style={{ background: 'rgba(200, 157, 60,0.2)' }} />
           <span className="font-medium cursor-default" style={{ color: 'rgba(200, 157, 60,0.7)' }}>

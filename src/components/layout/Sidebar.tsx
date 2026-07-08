@@ -55,14 +55,14 @@ export default function Sidebar({ onClose }: { onClose?: () => void }) {
           className="w-10 h-10 rounded-full flex items-center justify-center mr-3 shrink-0 overflow-hidden shadow-sm"
           style={{ border: '1px solid rgba(200, 157, 60,0.35)', boxShadow: '0 0 15px rgba(200, 157, 60,0.08)' }}
         >
-          <img src="/logo.jpeg" alt="VJ Hair Salon Logo" className="w-full h-full object-cover" />
+          <img src="/logo.jpeg" alt="VJ hair & beauty studio Logo" className="w-full h-full object-cover" />
         </div>
         <div>
           <h1
             className="text-base font-semibold tracking-widest leading-none"
             style={{ fontFamily: "'Cinzel', 'Playfair Display', Georgia, serif", color: 'var(--gold)' }}
           >
-            VJ Hair Salon
+            VJ hair & beauty studio
           </h1>
           <p className="text-[10px] tracking-[0.18em] uppercase mt-0.5" style={{ color: 'rgba(200, 157, 60,0.45)' }}>
             SALON
@@ -139,7 +139,7 @@ export default function Sidebar({ onClose }: { onClose?: () => void }) {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-[13px] font-semibold truncate" style={{ color: '#EAEAEA' }}>
-                VJ Hair Salon
+                VJ hair & beauty studio
               </p>
               <p className="text-[10px] uppercase tracking-wider truncate" style={{ color: 'rgba(200, 157, 60,0.5)' }}>
                 {profile.role}
