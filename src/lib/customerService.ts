@@ -13,6 +13,7 @@ export const customerService = {
       .from('customers')
       .select('*', { count: 'exact' })
       .eq('is_deleted', false)
+      .order('updated_at', { ascending: false, nullsFirst: false })
       .order('created_at', { ascending: false });
 
     if (search) {
