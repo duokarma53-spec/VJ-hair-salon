@@ -464,7 +464,7 @@ export default function Appointments() {
         const existingPaid = Number(custData?.amount_paid || 0);
         const existingServices: string[] = custData?.services_taken || [];
         const newServices = Array.from(new Set([...existingServices, ...vServicesData.map(s => s.service_name)]));
-        await supabase.from('customers').update({ amount_paid: existingPaid + grandTotal, services_taken: newServices }).eq('id', customerId);
+        await supabase.from('customers').update({ amount_paid: existingPaid + grandTotal, services_taken: newServices, updated_at: new Date().toISOString() }).eq('id', customerId);
       }
 
       // 7. Mark appointment checked in
