@@ -64,8 +64,7 @@ export default function Staff() {
       const staffData = {
         name: editingStaff.name || editingStaff.staff_name,
         gender: editingStaff.gender,
-        salary: editingStaff.salary || 15000,
-        status: editingStaff.status || 'Active'
+        salary: editingStaff.salary || 15000
       };
 
       if (editingStaff.id) {
